@@ -31,7 +31,6 @@ jobs:
           mkdir -p /home/ec2-user/my-app
           cd /home/ec2-user/my-app
 
-          # clone or pull
           if [ ! -d .git ]; then
             git clone https://github.com/rohitkwati/hello-ec2.git .
           else
